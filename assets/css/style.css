@@ -313,11 +313,11 @@ img {
 }
 
 .pagination li:first-child{
-  padding-right: 15px;
+  padding-inline-end: 15px;
 }
 
 .pagination li:last-child{
-  padding-left: 15px;
+  padding-inline-start: 15px;
 }
 
 
@@ -449,7 +449,7 @@ img {
   text-transform: uppercase;
   color: var(--theme-color);
   border-bottom: 2px solid var(--theme-color);
-  padding-left: 10px;
+  padding-inline-start: 10px;
   margin-bottom: 16px;
 }
 
@@ -643,7 +643,7 @@ img {
   border: none;
   font-weight: 400;
   border-radius: 0px;
-  padding-right: 50px;
+  padding-inline-end: 50px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -667,7 +667,7 @@ img {
 
 .nice-select{
   position: relative;
-  padding-right: 22px;
+  padding-inline-end: 22px;
 }
 
 .nice-select:before{
@@ -808,8 +808,8 @@ img {
   position: relative;
   display: block;
   width: 215px;
-  padding-left: 30px;
-  margin-left: 20px;
+  padding-inline-start: 30px;
+  margin-inline-start: 20px;
 }
 
 .main-header .menu-right-content .search-form .form-group{
@@ -826,7 +826,7 @@ img {
   font-size: 17px;
   line-height: 28px;
   color: #a5aaaf;
-  padding-right: 30px;
+  padding-inline-end: 30px;
 }
 
 .main-header .menu-right-content .search-form .form-group button[type='submit']{
@@ -881,11 +881,11 @@ img {
 }
 
 .main-menu .navigation > li:last-child{
-  margin-right:0px !important;
+  margin-inline-end:0px !important;
 }
 
 .main-menu .navigation > li:first-child{
-  margin-left: 0px !important;
+  margin-inline-start: 0px !important;
 }
 
 .main-menu .navigation > li > a{
@@ -909,7 +909,7 @@ img {
 }
 
 .main-menu .navigation > li.dropdown > a{
-  padding-right: 17px;
+  padding-inline-end: 17px;
 }
 
 .main-menu .navigation > li.current > a,
@@ -977,7 +977,7 @@ img {
 }
 
 .main-menu .navigation > li > .megamenu li > a{
-  padding-left: 0px;
+  padding-inline-start: 0px;
 }
 
 .main-menu .navigation > li > .megamenu h4{
@@ -1023,7 +1023,7 @@ img {
   left:100%;
   top:0%;
   margin-top: 30px;
-  margin-left: 10px;
+  margin-inline-start: 10px;
   background: #fff;
   width:270px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
@@ -1207,7 +1207,7 @@ img {
   right: 0;
   top: 0;
   width: 300px;
-  padding-right:30px;
+  padding-inline-end:30px;
   max-width:100%;
   height: 100%;
   opacity: 0;
@@ -1355,7 +1355,7 @@ img {
 
 .mobile-menu .navigation li ul li > a{
   font-size: 16px;
-  margin-left: 20px;
+  margin-inline-start: 20px;
   text-transform: capitalize;
 }
 
@@ -1675,7 +1675,7 @@ div#mCSB_1_container{
   font-family: var(--title-font);
   font-weight: 500;
   color: var(--title-color);
-  padding-left: 24px;
+  padding-inline-start: 24px;
   display: inline-block;
   cursor: pointer;
 }
@@ -1880,7 +1880,7 @@ div#mCSB_1_container{
 
 .banner-top-section .outer-container{
   position: relative;
-  padding-left: 375px;
+  padding-inline-start: 375px;
 }
 
 .banner-top-section .inner-box{
@@ -1935,7 +1935,7 @@ div#mCSB_1_container{
   font-size: 18px;
   line-height: 24px;
   color: #a5aaaf;
-  padding-right: 110px;
+  padding-inline-end: 110px;
 }
 
 .banner-top-section .based-content .inner .logo-box h5::before{
@@ -1961,7 +1961,7 @@ div#mCSB_1_container{
 .banner-top-section .based-content .inner .single-item{
   position: relative;
   display: block;
-  padding-left: 100px;
+  padding-inline-start: 100px;
 }
 
 .banner-top-section .based-content .inner .single-item .shape{
@@ -2192,7 +2192,7 @@ div#mCSB_1_container{
 
 .banner-section .banner-carousel .content-box h2{
   text-align: center;
-  padding-left: 100px;
+  padding-inline-start: 100px;
 }
 
 .banner-section .banner-carousel .content-box h2::before{
@@ -2225,7 +2225,7 @@ div#mCSB_1_container{
 .banner-section .banner-carousel .content-box p{
   max-width: 100%;
   text-align: center;
-  padding-left: 100px;
+  padding-inline-start: 100px;
 }
   
 .banner-carousel .active .content-box p{
@@ -2257,7 +2257,7 @@ div#mCSB_1_container{
 }
 
 .banner-section .banner-carousel .content-box .btn-box{
-  padding-left: 100px;
+  padding-inline-start: 100px;
 }
   
 .banner-carousel .active .content-box .btn-box{
@@ -2689,7 +2689,7 @@ div#mCSB_1_container{
 .about-section .inner-content .image-box{
   position: relative;
   height: 100%;
-  margin-left: 100px;
+  margin-inline-start: 100px;
 }
 
 .about-section .inner-content .image-box .image{
@@ -2803,7 +2803,7 @@ div#mCSB_1_container{
 .about-section .inner-content .image-box .image-content .video-box{
   position: relative;
   display: block;
-  padding-left: 53px;
+  padding-inline-start: 53px;
 }
 
 .about-section .inner-content .image-box .image-content .video-box h5{
@@ -2853,7 +2853,7 @@ div#mCSB_1_container{
 }
 
 .service-section .sec-title{
-  padding-left: 190px;
+  padding-inline-start: 190px;
 }
 
 .service-section .upper-box .count-box{
@@ -2908,8 +2908,8 @@ div#mCSB_1_container{
 
 .service-section .lower-box{
   position: relative;
-  margin-right: -375px;
-  padding-right: 375px;
+  margin-inline-end: -375px;
+  padding-inline-end: 375px;
   border-top: 1px solid #dbdfe3;
 }
 
@@ -3256,8 +3256,8 @@ div#mCSB_1_container{
 .industries-section .inner-container{
   position: relative;
   display: block;
-  margin-left: -375px;
-  padding-left: 375px;
+  margin-inline-start: -375px;
+  padding-inline-start: 375px;
 }
 
 .industries-section .inner-container::before{
@@ -3372,7 +3372,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   background-color: var(--secondary-color);
-  margin-left: -30px;
+  margin-inline-start: -30px;
   padding: 42px 30px 50px 40px;
 }
 
@@ -3403,7 +3403,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   color: #a5aaaf;
-  padding-left: 30px;
+  padding-inline-start: 30px;
   margin-bottom: 8px;
 }
 
@@ -3500,7 +3500,7 @@ div#mCSB_1_container{
 .industries-section .lower-box .text-box{
   position: relative;
   display: block;
-  padding-left: 25px;
+  padding-inline-start: 25px;
 }
 
 .industries-section .lower-box .text-box::before{
@@ -3599,12 +3599,12 @@ div#mCSB_1_container{
 .project-section .inner-container {
   position: relative;
   overflow-x: hidden;
-  margin-right: -345px;
-  padding-right: 345px;
+  margin-inline-end: -345px;
+  padding-inline-end: 345px;
 }
 
 .project-section .sec-title{
-  padding-left: 190px;
+  padding-inline-start: 190px;
 }
 
 .project-section .upper-box .count-box{
@@ -3809,7 +3809,7 @@ div#mCSB_1_container{
 }
 
 .project-section .tab-btn-box .tab-btns li.active-btn h6{
-  padding-left: 22px;
+  padding-inline-start: 22px;
   color: var(--theme-color);
 }
 
@@ -3862,8 +3862,8 @@ div#mCSB_1_container{
 }
 
 .nav-style-one button.owl-prev{
-  padding-right: 44px;
-  margin-right: 15px;
+  padding-inline-end: 44px;
+  margin-inline-end: 15px;
 }
 
 .nav-style-one button.owl-prev::before{
@@ -3880,8 +3880,8 @@ div#mCSB_1_container{
 }
 
 .nav-style-one button.owl-next{
-  padding-left: 44px;
-  margin-left: 15px;
+  padding-inline-start: 44px;
+  margin-inline-start: 15px;
 }
 
 .nav-style-one button.owl-next::before{
@@ -3999,7 +3999,7 @@ div#mCSB_1_container{
   position: relative;
   display: flex;
   align-items: flex-end;
-  padding-left: 40px;
+  padding-inline-start: 40px;
 }
 
 .working-section .left-content .inner-box h4{
@@ -4035,7 +4035,7 @@ div#mCSB_1_container{
   border-radius: 50%;
   text-align: center;
   padding: 0px 20px;
-  margin-left: -40px;
+  margin-inline-start: -40px;
 }
 
 .working-section .left-content .inner-box .single-box a{
@@ -4064,7 +4064,7 @@ div#mCSB_1_container{
   width: 1px;
   height: 100%;
   background-color: #324c62;
-  margin-left: -35px;
+  margin-inline-start: -35px;
 }
 
 .working-section .line-shape .line-2{
@@ -4074,7 +4074,7 @@ div#mCSB_1_container{
   width: 1px;
   height: 100%;
   background-color: #324c62;
-  margin-left: 35px;
+  margin-inline-start: 35px;
 }
 
 .working-section .right-content{
@@ -5171,7 +5171,7 @@ div#mCSB_1_container{
   background-color: #fff;
   text-align: center;
   border-radius: 50%;
-  margin-right: -10px;
+  margin-inline-end: -10px;
 }
 
 .footer-bottom .bottom-inner .middle-column .inner-box .icon-list li:last-child{
@@ -5452,7 +5452,7 @@ div#mCSB_1_container{
   line-height: 22px;
   color: #fff;
   font-weight: 600;
-  padding-left: 30px;
+  padding-inline-start: 30px;
   text-transform: uppercase;
 }
 
@@ -5474,7 +5474,7 @@ div#mCSB_1_container{
   font-size: 24px;
   color: #fff;
   cursor: pointer;
-  padding-left: 30px;
+  padding-inline-start: 30px;
   transition: all 500ms ease;
 }
 
@@ -5710,8 +5710,8 @@ div#mCSB_1_container{
 
 .service-style-two .outer-container{
   position: relative;
-  padding-right: 320px;
-  padding-left: 30px;
+  padding-inline-end: 320px;
+  padding-inline-start: 30px;
 }
 
 .service-block-two .inner-box{
@@ -5751,7 +5751,7 @@ div#mCSB_1_container{
   width: 100px;
   height: 50px;
   left: 50%;
-  margin-left: -50px;
+  margin-inline-start: -50px;
   top: 0px;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
   transition: all 500ms ease;
@@ -5764,7 +5764,7 @@ div#mCSB_1_container{
   width: 100px;
   height: 50px;
   left: 50%;
-  margin-left: -50px;
+  margin-inline-start: -50px;
   bottom: 0px;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   transition: all 500ms ease;
@@ -5773,7 +5773,7 @@ div#mCSB_1_container{
 .service-block-two .inner-box:hover .image-box .image .shape-1::before,
 .service-block-two .inner-box:hover .image-box .image .shape-1::after{
   width: 0px;
-  margin-left: 0px;
+  margin-inline-start: 0px;
 }
 
 .service-block-two .inner-box .image-box .image .shape-2::before{
@@ -5984,7 +5984,7 @@ div#mCSB_1_container{
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 175px;
+  padding-inline-start: 175px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -6151,7 +6151,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 17px;
   margin-bottom: 11px;
-  padding-left: 25px;
+  padding-inline-start: 25px;
 }
 
 .company-section .single-column .inner-box .list-item li:last-child{
@@ -6294,7 +6294,7 @@ div#mCSB_1_container{
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 9px;
-  padding-left: 22px;
+  padding-inline-start: 22px;
 }
 
 .chooseus-block-two .inner-box h3 i{
@@ -6306,8 +6306,8 @@ div#mCSB_1_container{
 }
 
 .right-content .chooseus-block-two .inner-box h3{
-  padding-left: 0px;
-  padding-right: 22px;
+  padding-inline-start: 0px;
+  padding-inline-end: 22px;
 }
 
 .right-content .chooseus-block-two .inner-box h3 i{
@@ -6447,7 +6447,7 @@ div#mCSB_1_container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 40px;
+  padding-inline-start: 40px;
 }
 
 .industries-block-one .inner-box .lower-box .link a{
@@ -6547,7 +6547,7 @@ div#mCSB_1_container{
   border: 1px solid #ccc9d4;
   border-radius: 50%;
   left: 50%;
-  margin-left: -10px;
+  margin-inline-start: -10px;
   top: 20px;
 }
 
@@ -6563,7 +6563,7 @@ div#mCSB_1_container{
   background-color: var(--theme-color);
   border-radius: 50%;
   left: 50%;
-  margin-left: -5px;
+  margin-inline-start: -5px;
   top: 25px;
   opacity: 0;
 }
@@ -6648,13 +6648,13 @@ div#mCSB_1_container{
 }
 
 .pricing-section .title-box{
-  padding-right: 35px;
+  padding-inline-end: 35px;
 }
 
 .pricing-section .feature-box{
   position: relative;
   display: block;
-  padding-left: 35px;
+  padding-inline-start: 35px;
   margin-top: -7px;
 }
 
@@ -6729,7 +6729,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   background-color: var(--secondary-color);
-  margin-left: 20px;
+  margin-inline-start: 20px;
   padding: 32px 40px 40px 40px;
 }
 
@@ -6910,7 +6910,7 @@ div#mCSB_1_container{
   min-width: 270px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 120px;
+  padding-inline-start: 120px;
 }
 
 .process-block-one .inner-box .image-box .image{
@@ -7530,7 +7530,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 20px;
   color: var(--title-color);
-  margin-right: -10px;
+  margin-inline-end: -10px;
 }
 
 .news-style-two .content-box .inner-box .icon-list li:last-child{
@@ -7983,7 +7983,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   color: #a9a5b8;
-  padding-right: 17px;
+  padding-inline-end: 17px;
 }
 
 .footer-style-two .links-widget .links-list li a:hover{
@@ -8008,7 +8008,7 @@ div#mCSB_1_container{
 
 .footer-style-two .links-widget .links-list{
   position: relative;
-  padding-left: 16px;
+  padding-inline-start: 16px;
 }
 
 .footer-style-two .links-widget .links-list::before{
@@ -8082,7 +8082,7 @@ div#mCSB_1_container{
   -webkit-text-stroke-color: #443e61;
   height: 100%;
   text-align: center;
-  margin-left: -250px;
+  margin-inline-start: -250px;
 }
 
 .footer-style-two .outer-container{
@@ -8125,7 +8125,7 @@ div#mCSB_1_container{
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-right: 30px;
+  padding-inline-end: 30px;
   border-right: 1px solid #dee1e7;
 }
 
@@ -8219,7 +8219,7 @@ div#mCSB_1_container{
 
 .header-style-three .menu-right-content .user-link{
   position: relative;
-  padding-left: 35px;
+  padding-inline-start: 35px;
 }
 
 .header-style-three .menu-right-content .user-link::before{
@@ -8257,7 +8257,7 @@ div#mCSB_1_container{
 .banner-style-three .owl-nav,
 .banner-style-three .owl-dots{
   right: 50%;
-  margin-right: -145px;
+  margin-inline-end: -145px;
   background-color: transparent;
   bottom: 15px;
 }
@@ -8673,7 +8673,7 @@ div#mCSB_1_container{
   font-size: 24px;
   line-height: 32px;
   color: #fff;
-  padding-right: 110px;
+  padding-inline-end: 110px;
   margin-bottom: 18px;
 }
 
@@ -9388,7 +9388,7 @@ div#mCSB_1_container{
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 175px;
+  padding-inline-start: 175px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9591,7 +9591,7 @@ div#mCSB_1_container{
 }
 
 .features-section .tab-btns li.active-btn{
-  padding-left: 140px;
+  padding-inline-start: 140px;
 }
 
 .features-section .tab-btns li .icon-box{
@@ -9843,7 +9843,7 @@ div#mCSB_1_container{
   display: flex;
   align-items: center;
   gap: 75px;
-  margin-left: 45px;
+  margin-inline-start: 45px;
 }
 
 .contact-section .content-box .icon-box{
@@ -9923,7 +9923,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   background-color: #fff;
-  margin-right: 20px;
+  margin-inline-end: 20px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -10147,7 +10147,7 @@ div#mCSB_1_container{
   color: var(--title-color);
   font-weight: 600;
   text-transform: uppercase;
-  padding-right: 25px;
+  padding-inline-end: 25px;
   transition: all 500ms ease;
 }
 
@@ -10212,7 +10212,7 @@ div#mCSB_1_container{
 
 .footer-bottom-two .bottom-inner .footer-logo{
   position: relative;
-  padding-right: 30px;
+  padding-inline-end: 30px;
   border-right: 1px solid #dee1e7;
 }
 
@@ -10317,7 +10317,7 @@ div#mCSB_1_container{
 
 .header-style-four .menu-right-content .search-toggler{
   color: var(--title-color);
-  padding-left: 0px;
+  padding-inline-start: 0px;
 }
 
 .header-style-four .menu-right-content .search-toggler::before{
@@ -10362,7 +10362,7 @@ div#mCSB_1_container{
 
 .header-style-four .outer-container{
   padding: 0px;
-  padding-right: 40px;
+  padding-inline-end: 40px;
 }
 
 .header-style-four .header-lower .main-content{
@@ -10603,7 +10603,7 @@ div#mCSB_1_container{
 .about-style-three .image-box{
   position: relative;
   display: block;
-  margin-right: 20px;
+  margin-inline-end: 20px;
   padding: 0px 120px 240px 60px;
 }
 
@@ -10758,7 +10758,7 @@ div#mCSB_1_container{
   color: #6f6d69;
   font-weight: 600;
   text-transform: uppercase;
-  padding-left: 40px;
+  padding-inline-start: 40px;
 }
 
 .about-style-three .content-box .award-box .text::before{
@@ -11145,7 +11145,7 @@ div#mCSB_1_container{
 .footer-style-four .footer-top .footer-logo{
   position: absolute;
   left: 50%;
-  margin-left: -140px;
+  margin-inline-start: -140px;
   top: -83px;
   width: 280px;
   height: 166px;
@@ -11369,7 +11369,7 @@ div#mCSB_1_container{
   left: 0px;
   top: 0px;
   width: 375px;
-  padding-right: 40px;
+  padding-inline-end: 40px;
   border-right: 1px solid #ebe9ef;
 }
 
@@ -11398,7 +11398,7 @@ div#mCSB_1_container{
   font-size: 18px;
   line-height: 24px;
   color: #a5aaaf;
-  padding-right: 110px;
+  padding-inline-end: 110px;
 }
 
 .page-title .based-content .inner .logo-box h5::before{
@@ -11424,7 +11424,7 @@ div#mCSB_1_container{
 .page-title .based-content .inner .single-item{
   position: relative;
   display: block;
-  padding-left: 100px;
+  padding-inline-start: 100px;
 }
 
 .page-title .based-content .inner .single-item .shape{
@@ -11468,7 +11468,7 @@ div#mCSB_1_container{
 
 .page-title .outer-container{
   position: relative;
-  padding-left: 475px;
+  padding-inline-start: 475px;
 }
 
 .page-title .based-content .inner .single-item h2 span{
@@ -11520,7 +11520,7 @@ div#mCSB_1_container{
 .history-section .tabs-inner .image-box{
   position: relative;
   display: block;
-  margin-right: -15px;
+  margin-inline-end: -15px;
 }
 
 .history-section .tabs-inner .image-box img{
@@ -11653,7 +11653,7 @@ div#mCSB_1_container{
   border-radius: 50%;
   left: 50%;
   top: -59px;
-  margin-left: -5px;
+  margin-inline-start: -5px;
   z-index: 1;
   opacity: 0;
   transition: all 500ms ease;
@@ -11675,7 +11675,7 @@ div#mCSB_1_container{
 .contact-style-two .tab-btn-box{
   position: relative;
   display: block;
-  padding-right: 150px;
+  padding-inline-end: 150px;
   margin-bottom: 42px;
 }
 
@@ -11797,7 +11797,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   margin-bottom: 22px;
-  padding-left: 25px;
+  padding-inline-start: 25px;
 }
 
 .info-block-one .inner-box .title-box::before{
@@ -11897,7 +11897,7 @@ div#mCSB_1_container{
   width: 25px;
   height: 15px;
   left: 50%;
-  margin-left: -12px;
+  margin-inline-start: -12px;
   bottom: -15px;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
@@ -12715,7 +12715,7 @@ div#mCSB_1_container{
 }
 
 .project-style-four .project-tab .p-tab .project-block-one{
-  margin-left: 70px;
+  margin-inline-start: 70px;
 }
 
 .project-style-four .project-block-one .inner-box .content-box{
@@ -12853,7 +12853,7 @@ div#mCSB_1_container{
 .project-details .upper-box .image-box{
   position: relative;
   display: block;
-  margin-right: 25px;
+  margin-inline-end: 25px;
 }
 
 .project-details .upper-box .image-box img{
@@ -13252,7 +13252,7 @@ div#mCSB_1_container{
 
 .blog-sidebar .category-widget .category-list li a .text{
   position: relative;
-  padding-right: 31px;
+  padding-inline-end: 31px;
 }
 
 .blog-sidebar .category-widget .category-list li a .text::before{
@@ -13611,7 +13611,7 @@ div#mCSB_1_container{
 }
 
 .blog-details-content .content-one .text-box p:first-child{
-  padding-left: 60px;
+  padding-inline-start: 60px;
 }
 
 .blog-details-content .content-one .text-box p:first-child span{
@@ -13670,7 +13670,7 @@ div#mCSB_1_container{
   line-height: 22px;
   color: #66696b;
   text-transform: uppercase;
-  padding-left: 40px;
+  padding-inline-start: 40px;
 }
 
 .blog-details-content blockquote h6:before{
@@ -13703,7 +13703,7 @@ div#mCSB_1_container{
 .blog-details-content .content-two .list-item li{
   position: relative;
   display: block;
-  padding-left: 32px;
+  padding-inline-start: 32px;
   margin-bottom: 17px;
 }
 
@@ -13730,7 +13730,7 @@ div#mCSB_1_container{
 
 .blog-details-content .content-three .inner-box{
   position: relative;
-  padding-left: 40px;
+  padding-inline-start: 40px;
 }
 
 .blog-details-content .content-three .inner-box::before{
@@ -13763,7 +13763,7 @@ div#mCSB_1_container{
 .blog-details-content .content-three .inner-box .list-item li{
   position: relative;
   display: block;
-  padding-left: 26px;
+  padding-inline-start: 26px;
   margin-bottom: 12px;
 }
 
@@ -14048,7 +14048,7 @@ div#mCSB_1_container{
   font-size: 17px;
   line-height: 26px;
   color: var(--text-color);
-  padding-left: 28px;
+  padding-inline-start: 28px;
   display: inline-block;
   cursor: pointer;
   margin-bottom: 0px;
@@ -14197,7 +14197,7 @@ div#mCSB_1_container{
 
 .popup-info ul{
     margin-bottom: 25px;
-    padding-left: 18px;
+    padding-inline-start: 18px;
 }
 
 .popup-info ul li{
@@ -14233,8 +14233,8 @@ div#mCSB_1_container{
   }
 
   .intro-section .outer-container{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
   }
 
   .project-section .pattern-layer .pattern-2{
@@ -14242,11 +14242,11 @@ div#mCSB_1_container{
   }
 
   .project-section{
-    padding-right: 0px;
+    padding-inline-end: 0px;
   }
 
   .service-style-two .outer-container{
-    padding-right: 30px;
+    padding-inline-end: 30px;
   }
 
   .company-section .outer-container{
@@ -14272,8 +14272,8 @@ div#mCSB_1_container{
   }
 
   .service-section .lower-box{
-    padding-right: 0px;
-    margin-right: 0px;
+    padding-inline-end: 0px;
+    margin-inline-end: 0px;
   }
 
   .service-section .lower-box .single-service-box,
@@ -14282,8 +14282,8 @@ div#mCSB_1_container{
   }
 
   .industries-section .inner-container{
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-inline-start: 0px;
+    margin-inline-start: 0px;
   }
 
   .industries-section .inner-container .tabs-box{
@@ -14291,7 +14291,7 @@ div#mCSB_1_container{
   }
 
   .funfact-block-one .inner-box{
-    padding-left: 15px;
+    padding-inline-start: 15px;
   }
 
   .funfact-block-one .inner-box .bar-shape,
@@ -14322,7 +14322,7 @@ div#mCSB_1_container{
 
 @media only screen and (max-width: 1399px){
   .main-header .menu-right-content .search-form{
-    margin-left: 0px;
+    margin-inline-start: 0px;
   }
 
   .main-header .header-lower .left-column{
@@ -14344,8 +14344,8 @@ div#mCSB_1_container{
 
 @media only screen and (max-width: 1299px){
   .header-style-four .header-lower .main-menu .navigation > li{
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-inline-start: 8px;
+    margin-inline-end: 8px;
   }
 
   .history-section .tab-btn-box .tab-btns{
@@ -14367,7 +14367,7 @@ div#mCSB_1_container{
   }
 
   .banner-section .outer-container{
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .banner-top-section .based-content{
@@ -14453,8 +14453,8 @@ div#mCSB_1_container{
 
 @media only screen and (max-width: 991px){
   .banner-top-section .inner-box{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
   }
 
   .about-section .content-box .inner-box{
@@ -14462,7 +14462,7 @@ div#mCSB_1_container{
   }
 
   .service-section .sec-title{
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .service-section .upper-box .count-box,
@@ -14478,7 +14478,7 @@ div#mCSB_1_container{
   }
 
   .industries-section .tabs-box .content-box{
-    margin-left: 0px;
+    margin-inline-start: 0px;
   }
 
   .industries-section .lower-box{
@@ -14490,7 +14490,7 @@ div#mCSB_1_container{
   }
 
   .project-section .sec-title{
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .project-section .tab-btn-box{
@@ -14519,11 +14519,11 @@ div#mCSB_1_container{
   }
 
   .working-section .right-content{
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .working-section .left-content{
-    padding-right: 0px;
+    padding-inline-end: 0px;
   }
 
   .news-section .sec-title a,
@@ -14577,7 +14577,7 @@ div#mCSB_1_container{
   }
 
   .pricing-section .inner-box{
-    margin-left: 0px;
+    margin-inline-start: 0px;
     margin-top: 30px;
   }
 
@@ -14586,7 +14586,7 @@ div#mCSB_1_container{
   }
 
   .news-style-two .content-box{
-    margin-right: 0px;
+    margin-inline-end: 0px;
     margin-bottom: 40px;
   }
 
@@ -14654,7 +14654,7 @@ div#mCSB_1_container{
   .industries-style-three .left-content .lower-box{
     max-width: 100%;
     margin-bottom: 40px;
-    padding-left: 30px;
+    padding-inline-start: 30px;
   }
 
   .industries-style-three .left-content .lower-box::before{
@@ -14674,7 +14674,7 @@ div#mCSB_1_container{
   }
 
   .contact-section .content-box{
-    margin-left: 0px;
+    margin-inline-start: 0px;
     margin-top: 30px;
   }
 
@@ -14699,7 +14699,7 @@ div#mCSB_1_container{
   }
 
   .about-style-three .image-box{
-    margin-right: 0px;
+    margin-inline-end: 0px;
     margin-bottom: 30px;
   }
 
@@ -14718,7 +14718,7 @@ div#mCSB_1_container{
   }
 
   .page-title .outer-container{
-    padding-left: 400px;
+    padding-inline-start: 400px;
   }
 
   .history-section .tab-btn-box .tab-btns{
@@ -14739,7 +14739,7 @@ div#mCSB_1_container{
   }
 
   .project-details .upper-box .image-box{
-    margin-right: 0px;
+    margin-inline-end: 0px;
     margin-bottom: 20px;
   }
 
@@ -14748,8 +14748,8 @@ div#mCSB_1_container{
   }
 
   .news-block-three .inner-box{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
   }
 
   .news-block-three .inner-box .content-box h3{
@@ -14778,7 +14778,7 @@ div#mCSB_1_container{
 
   .banner-section .banner-carousel .content-box p,
   .banner-section .banner-carousel .content-box .btn-box{
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .about-section .pattern-layer{
@@ -14801,7 +14801,7 @@ div#mCSB_1_container{
 
   .service-section .upper-box{
     padding-top: 70px;
-    padding-left: 30px;
+    padding-inline-start: 30px;
   }
 
   .service-section .bg-layer,
@@ -14879,7 +14879,7 @@ div#mCSB_1_container{
   }
 
   .service-style-two .lower-box{
-    padding-left: 0px;
+    padding-inline-start: 0px;
     justify-content: center;
   }
 
@@ -14912,13 +14912,13 @@ div#mCSB_1_container{
   }
 
   .pricing-section .title-box{
-    padding-right: 0px;
+    padding-inline-end: 0px;
     margin-bottom: 30px;
   }
 
   .pricing-section .feature-box{
     margin: 0px;
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .pricing-section .feature-box::before{
@@ -14987,7 +14987,7 @@ div#mCSB_1_container{
   }
 
   .project-style-two .lower-box{
-    padding-left: 0px;
+    padding-inline-start: 0px;
     justify-content: center;
   }
 
@@ -15072,7 +15072,7 @@ div#mCSB_1_container{
   }
 
   .page-title .outer-container{
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .page-title .based-content{
@@ -15140,7 +15140,7 @@ div#mCSB_1_container{
     position: relative;
     display: inline-block;
     margin-bottom: 15px;
-    margin-right: 15px;
+    margin-inline-end: 15px;
   }
 
   .project-style-three,
@@ -15173,8 +15173,8 @@ div#mCSB_1_container{
   }
 
   .page-title .outer-container{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
   }
 }
 
@@ -15198,8 +15198,8 @@ div#mCSB_1_container{
   }
 
   .service-style-two .outer-container{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
   }
 
   .footer-style-two .links-widget .social-box .download-box{
@@ -15231,8 +15231,8 @@ div#mCSB_1_container{
   }
 
   .pricing-section .inner-container{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
   }
 
   .features-section .tabs-box .tabs-content .image-box{
@@ -15249,7 +15249,7 @@ div#mCSB_1_container{
   }
 
   .header-style-four .outer-container{
-    padding-right: 15px;
+    padding-inline-end: 15px;
   }
 
   .footer-style-four .footer-bottom .footer-nav p{
@@ -15316,16 +15316,16 @@ div#mCSB_1_container{
   }
 
   .about-section .inner-content .image-box{
-    margin-left: 0px;
+    margin-inline-start: 0px;
   }
 
   .service-section .lower-box .single-service-box .lower-content,
   .service-block-one .inner-box{
-    padding-left: 30px;
+    padding-inline-start: 30px;
   }
 
   .industries-section .inner-container .single-box .inner-box{
-    padding-left: 0px;
+    padding-inline-start: 0px;
   }
 
   .industries-section .lower-box .right-column{
@@ -15374,8 +15374,8 @@ div#mCSB_1_container{
   }
 
   .pricing-section .inner-container{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
   }
 
   .process-block-one .inner-box{
@@ -15412,7 +15412,7 @@ div#mCSB_1_container{
   }
 
   .features-section .inner-container .left-content{
-    padding-left: 15px;
+    padding-inline-start: 15px;
   }
 
   .features-section .tabs-box .tabs-content .image-box{
@@ -15444,7 +15444,7 @@ div#mCSB_1_container{
   }
 
   .footer-bottom-two .bottom-inner .footer-logo{
-    padding-right: 0px;
+    padding-inline-end: 0px;
     margin-bottom: 15px;
     border-right: none;
   }
@@ -15481,7 +15481,7 @@ div#mCSB_1_container{
   }
 
   .features-section .tab-btns li.active-btn{
-    padding-left: 120px;
+    padding-inline-start: 120px;
   }
 
   .history-section .tab-btn-box .tab-btns{
@@ -15492,12 +15492,12 @@ div#mCSB_1_container{
   .contact-style-three .content-box,
   .testimonial-page-section .testimonial-block-one .inner-box,
   .blog-sidebar .subscribe-widget .inner-box{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
   }
 
   .contact-style-two .tab-btn-box{
-    padding-right: 30px;
+    padding-inline-end: 30px;
   }
 
   .contact-style-two .tab-btn-box .text{
@@ -15515,8 +15515,8 @@ div#mCSB_1_container{
   }
 
   .page-title .based-content .inner{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
   }
 
   .pagination{
@@ -15528,8 +15528,8 @@ div#mCSB_1_container{
   }
 
   .news-block-four .inner-box .content-box{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
   }
 
   .blog-details-content .content-one h2{
@@ -15546,12 +15546,12 @@ div#mCSB_1_container{
   }
 
   .blog-details-content .content-one .info-list li{
-    margin-right: 10px;
+    margin-inline-end: 10px;
   }
 
   .blog-details-content blockquote{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
   }
 
   .blog-details-content blockquote .icon-box{
