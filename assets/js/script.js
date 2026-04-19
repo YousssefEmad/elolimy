@@ -1,3 +1,12 @@
+function openProductPopup(){
+    document.getElementById("productPopup").classList.add("active");
+    document.body.style.overflow = "hidden";
+}
+
+function closeProductPopup(){
+    document.getElementById("productPopup").classList.remove("active");
+    document.body.style.overflow = "auto";
+}
 (function($) {
 	
 	"use strict";
@@ -244,7 +253,7 @@
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 1000,
+			// autoplay: 1000,
 			navText: [ '<span class="flaticon-right"></span>', '<span class="flaticon-right"></span>' ],
 			responsive:{
 				0:{
