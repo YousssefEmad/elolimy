@@ -511,7 +511,8 @@ img {
   top:0px;
   width:100%;
   z-index:0;
-  background-color: #fff;
+  background-color: #ffffff6e;
+  backdrop-filter: blur(40px);
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
   -webkit-transition:all 500ms ease;
@@ -520,6 +521,8 @@ img {
 }
 
 .fixed-header .sticky-header{
+  background-color: #ffffff6e;
+  backdrop-filter: blur(40px);
   z-index:999;
   opacity:1;
   visibility:visible;
@@ -866,6 +869,8 @@ img {
 
 .main-menu .navigation{
   margin:0px;
+  display: flex;
+    align-items: center;
 }
 
 .main-menu .navigation > li{
@@ -1874,12 +1879,10 @@ div#mCSB_1_container{
 /** banner-top-section **/
 
 .banner-top-section{
-  position: relative;
   z-index: 2;
 }
 
 .banner-top-section .outer-container{
-  position: relative;
   padding-inline-start: 375px;
 }
 
@@ -1903,12 +1906,34 @@ div#mCSB_1_container{
   color: var(--theme-color);
 }
 
+.banner-top-section .based-content span{
+  
+font-size: 14px;
+  
+color: #fe0000;
+  
+font-weight: 600;
+  
+padding-inline-start: 15px;
+}
+.banner-top-section .based-content h2{
+
+font-size: 34px;
+
+margin: 5px 2px;
+}
+.banner-top-section .based-content p{
+
+font-size: 15px;
+}
 .banner-top-section .based-content{
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 230px;
+  left: 60px;
+  top: 70%;
+  z-index: 2;
+  border-radius: 10px;
   background-color: #fff;
+  backdrop-filter: blur(40px);
   border-right: 1px solid #ebe9ef;
 }
 
@@ -2075,7 +2100,7 @@ div#mCSB_1_container{
   overflow: hidden;
 }
 .banner-section .banner-carousel{
-  height: 70vh;
+  height: 80vh;
 }
 
 .banner-section .pattern-layer{
@@ -2098,7 +2123,6 @@ div#mCSB_1_container{
 }
 
 .banner-section .outer-container{
-  position: relative;
 }
   
 .banner-carousel .slide-item{
@@ -2108,7 +2132,7 @@ div#mCSB_1_container{
 
 .banner-section .banner-carousel .slide-item{
   padding-bottom: 200px;
-  height: 70vh;
+  height: 80vh;
 }
 
 .banner-section .banner-carousel .content-box{
@@ -2850,10 +2874,6 @@ div#mCSB_1_container{
 
 .service-section{
   position: relative;
-}
-
-.service-section .sec-title{
-  padding-inline-start: 190px;
 }
 
 .service-section .upper-box .count-box{
@@ -4945,7 +4965,12 @@ div#mCSB_1_container{
   font-weight: 600;
   margin-bottom: 3px;
 }
-
+.main-footer .contact-widget a{
+    color: #0d202f;
+}
+.main-footer .contact-widget a i{
+  padding-inline-end: 5px;
+}
 .main-footer .contact-widget .phone a:hover{
   color: var(--theme-color);
 }
@@ -4963,7 +4988,9 @@ div#mCSB_1_container{
 .main-footer .contact-widget .email a:hover{
   color: var(--theme-color);
 }
-
+.map-serv iframe{
+  margin-top: 15px;
+}
 .main-footer .contact-widget .map-link a{
   position: relative;
   display: inline-flex;
@@ -12813,6 +12840,7 @@ div#mCSB_1_container{
   left: 0px;
   bottom: 0px;
   z-index: 2;
+  display: none;
 }
 
 .project-block-three .inner-box .view-btn a{
@@ -15267,7 +15295,12 @@ div#mCSB_1_container{
 }
 @media only screen and (min-width: 1540px){
   .banner-top-section .based-content{
-        width: 340px;
+        width: max-content;
+  }
+}
+@media only screen and (max-width: 1290px){
+  .service-section .bg-layer{
+    display: none;
   }
 }
 @media only screen and (max-width: 1540px){
@@ -15276,6 +15309,7 @@ div#mCSB_1_container{
   .service-section .lower-box .single-service-box .lower-content h3{
     display: none;
   }
+
 }
 @media only screen and (max-width: 499px){
   .mobile-menu{
